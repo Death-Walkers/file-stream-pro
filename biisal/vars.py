@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
-bisal_channel = "https://t.me/+psf9HviwQJc3YTU1"
+bisal_channel = "https://t.me/Ashlynn_Repository"
 bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
 
 class Var(object):
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://chatgpt:chatgpt123@caption.27mvj.mongodb.net/?retryWrites=true&w=majority&appName=Caption'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'bisal_files')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'Ashlynn_Repository')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @biisal_bot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
